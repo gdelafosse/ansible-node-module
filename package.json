@@ -1,0 +1,22 @@
+{
+  "name": "ansible-node-module",
+  "version": "0.1.0",
+  "description": "A library that helps developing Ansible module in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdelafosse/ansible-node-module.git"
+  },
+  "keywords": [
+    "ansible"
+  ],
+  "author": "g.delafosse@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdelafosse/ansible-node-module/issues"
+  },
+  "homepage": "https://github.com/gdelafosse/ansible-node-module#readme"
+}

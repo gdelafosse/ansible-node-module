@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - example: arg1=value1 arg2=value2
