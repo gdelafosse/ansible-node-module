@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/gdelafosse/ansible-node-module/issues"
   },
-  "homepage": "https://github.com/gdelafosse/ansible-node-module#readme"
+  "homepage": "https://github.com/gdelafosse/ansible-node-module#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-sinon": "^1.1.5",
+    "sinon": "^1.17.3",
+    "tmp": "0.0.28"
+  }
 }

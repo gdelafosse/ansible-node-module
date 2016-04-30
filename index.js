@@ -26,7 +26,7 @@ function readArguments() {
 }
 
 function main(callback) {
-    readArguments()
+    return readArguments()
         .then(callback)
         .then((result) => {
             if (util.isNullOrUndefined(result)) {
@@ -37,6 +37,7 @@ function main(callback) {
         })
         .catch((err) => {
             console.log(`{"failed":true, "msg":"${err.message}"}`);
+            throw err;
         });
 }
 
