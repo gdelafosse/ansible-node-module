@@ -1,4 +1,5 @@
 # ansible-node-module
+[![Build Status](https://travis-ci.org/gdelafosse/ansible-node-module.svg?branch=master)](https://travis-ci.org/gdelafosse/ansible-node-module)
 A library that helps developing Ansible module in javascript.
 
 ## Usage
