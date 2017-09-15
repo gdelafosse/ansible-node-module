@@ -86,6 +86,18 @@ ansible.main((args) => {
 });
 ```
 
+To receive dictionary arguments or complex objects, place the following at the top of your module and Ansible will pass along arguments as JSON:
+```
+
+// WANT_JSON
+
+const ansible = require('ansible-node-module');
+
+ansible.main(() => {
+    // TO DO
+});
+```
+
 #### Using dependencies
 
 If your script uses other npm package they must be installed in _<home>/.ansible/node_modules_.
